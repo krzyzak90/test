@@ -12,7 +12,7 @@ public class Zadanie4 {
 
     int getMaximumStackSize() {
         return tab.length;
-    } // Metoda odwracająca kolejność elementów na stosie
+    }
     void reverse() {
         for (int i = 0; i < firstFree / 2; i++) {
             double temp = tab[i];

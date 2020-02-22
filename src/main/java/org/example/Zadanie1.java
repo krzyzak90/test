@@ -26,7 +26,6 @@ public class Zadanie1{
         return firstFree;
     }
 
-    // Metoda dodająca na stos
     void Push(double E) throws ArrayIndexOutOfBoundsException {
         if (firstFree < tab.length) {
             tab[firstFree] = E;
